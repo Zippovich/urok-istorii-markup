@@ -39,3 +39,62 @@ a:active {
 .top-links a {
     color: #000
 }
+.header-main {
+    background: #734940;
+    color: #ab918c
+}
+.header-main .logo-container {
+    border-right: 1px solid #8f6d66;
+    text-align: center;
+    padding: 20px 0
+}
+.header-main .logo-container a {
+    width: 126px;
+    height: 64px;
+    background: url('../img/logo.png') no-repeat;
+    display: inline-block;
+    text-indent: -9999px
+}
+.header-top-info {
+    border-bottom: 1px solid #8f6d66
+}
+.quote-sign {
+    font-family: Georgia, "Nimbus Roman No9 L", serif;
+    font-style: italic;
+    color: #fff
+}
+
+/* Bootstrap override */
+@media (min-width: 1200px) {
+    .row-fluid [class*="span"].margin-to-padding {
+        margin-left: 0;
+        *margin-left: 0;
+        padding-left: 2.564102564102564%;
+        *padding-left: 2.5109110747408616%;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .row-fluid [class*="span"].margin-to-padding {
+        margin-left: 0;
+        *margin-left: 0;
+        padding-left: 2.7624309392265194%;
+        *padding-left: 2.709239449864817%;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+}
+@media (max-width: 767px) {
+    .row-fluid [class*="span"].margin-to-padding {
+        margin-left: 0;
+        *margin-left: 0;
+        padding-left: 2.7624309392265194%;
+        *padding-left: 2.709239449864817%;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+}
