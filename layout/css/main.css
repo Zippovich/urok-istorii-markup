@@ -1,22 +1,41 @@
+/* Common */
+body {
+    font: 13px Arial, Helvetica, Garuda, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #734940
+}
+a:hover {
+    text-decoration: underline
+}
+a:visited,
+a:active {
+    color: #994a7a
+}
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Header */
+.top-links {
+    line-height: 26px;
+    font-size: 12px
+}
+.top-links ul {
+    list-style: none;
+    margin: 0
+}
+.top-left-menu {
+    float: left
+}
+.top-right-menu {
+    float: right
+}
+.top-links ul li {
+    float: left;
+    padding: 0 8px 0 2px
+}
+.top-links ul.top-right-menu li {
+    padding: 0 2px 0 8px
+}
+.top-links a {
+    color: #000
+}
