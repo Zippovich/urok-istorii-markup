@@ -63,17 +63,43 @@ a:active {
     font-style: italic;
     color: #fff
 }
+.header-top-info p {
+    padding: 10px 0;
+    margin: 0
+}
+.header-top-info .span3 p {
+    margin-left: -5%;
+    margin-right: 5%;
+}
+.header-bottom-info .nav {
+    margin: 0;
+    line-height: 50px
+}
+.header-bottom-info .nav>li>a {
+    color: #fff;
+    text-transform: uppercase
+}
+.header-bottom-info .nav>li>a:hover,
+.header-bottom-info .nav>li.active>a {
+    background: none
+}
 
 /* Bootstrap override */
+.row-fluid [class*="span"].margin-to-padding {
+    margin-left: 0;
+    *margin-left: 0;
+    padding-left: 2.127659574468085%;
+    *padding-left: 2.127659574468085%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
 @media (min-width: 1200px) {
     .row-fluid [class*="span"].margin-to-padding {
         margin-left: 0;
         *margin-left: 0;
         padding-left: 2.564102564102564%;
         *padding-left: 2.5109110747408616%;
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
     }
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -82,9 +108,6 @@ a:active {
         *margin-left: 0;
         padding-left: 2.7624309392265194%;
         *padding-left: 2.709239449864817%;
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
     }
 }
 @media (max-width: 767px) {
@@ -92,7 +115,10 @@ a:active {
         margin-left: 0;
         *margin-left: 0;
         padding-left: 2.7624309392265194%;
-        *padding-left: 2.709239449864817%;
+        *padding-left: 2.7624309392265194%;
+        padding-right: 2.7624309392265194%;
+        *padding-right: 2.7624309392265194%;
+        width: auto;
         -webkit-box-sizing: content-box;
         -moz-box-sizing: content-box;
         box-sizing: content-box;
