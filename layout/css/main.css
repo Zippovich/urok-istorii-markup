@@ -67,13 +67,22 @@ a:active {
     padding: 10px 0;
     margin: 0
 }
-.header-top-info .span3 p {
+.header-top-info .span4 p {
     margin-left: -5%;
     margin-right: 5%;
 }
+.header-bottom-info .span4 {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.header-bottom-info form {
+    padding-right: 8px;
+    margin-bottom: 0
+}
 .header-bottom-info .nav {
     margin: 0;
-    line-height: 50px
+    padding-top: 15px;
+    padding-bottom: 15px
 }
 .header-bottom-info .nav>li>a {
     color: #fff;
@@ -82,6 +91,16 @@ a:active {
 .header-bottom-info .nav>li>a:hover,
 .header-bottom-info .nav>li.active>a {
     background: none
+}
+input.search-query {
+    padding: 0 6px
+}
+.form-search button {
+    background: url('../img/search-button.png') no-repeat;
+    border: none;
+    text-indent: -9999px;
+    width: 21px;
+    height: 20px
 }
 
 /* Bootstrap override */
@@ -93,6 +112,15 @@ a:active {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
+}
+input.search-query {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+input[type="text"] {
+    background: #b9a4a0;
+    border: none
 }
 @media (min-width: 1200px) {
     .row-fluid [class*="span"].margin-to-padding {
